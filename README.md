@@ -1,4 +1,4 @@
-# MeLi Set Up - Automated Openings Dashboard MVP 🚀
+# MeLi Set Up - Automated Openings Dashboard MVP
 
 ## 📋 Descripción del Proyecto
 Este repositorio contiene el Producto Mínimo Viable (MVP) automatizado desarrollado para el equipo de **Set Up de Mercado Libre** El objetivo principal es centralizar y dar visibilidad semanal al estado de ejecución, fases del Gantt e infraestructura para la apertura de **12 nuevos Service Centers (SC)** distribuidos en 4 estados de México.
