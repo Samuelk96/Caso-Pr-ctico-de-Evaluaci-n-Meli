@@ -17,14 +17,14 @@ La solución elimina una carga operativa de más de 2 horas semanales de prepara
 
 ## ⚙️ Arquitectura de la Solución
 
-### 1. Pipeline ETL & Modelado de Datos (`src/etl_pipeline.py`)
+### 1. Pipeline ETL & Modelado de Datos ()
 * **Limpieza y Consolidación:** Ingesta y tratamiento de datos faltantes/atípicos utilizando `pandas`. Centraliza los estatus del Gantt operativo (pre-contrato, habilitación, compras, operación piloto).
 * **Cálculo de KPIs Integrados:**
   * `avance total`: Medición estandarizada del progreso de infraestructura calculando el promedio simple (% avance) de las categorías core: Obra Civil, Compras y Licencias.
   * `dias_retraso`: Algoritmo dinámico que mide la desviación en días frente a la fecha estimada de apertura utilizando la fecha actual. Utiliza la función `.clip(lower=0)` para evitar penalizaciones en centros que van adelantados o en tiempo.
 * **Automatización del Flujo:** Conexión directa mediante Service Account para actualizar la base de datos en la nube (`Set Up Dashboard`) de forma transparente para el usuario.
 
-### 2. Módulo de IA para Detección de Riesgos (`src/ai_module.py`)
+### 2. Módulo de IA para Detección de Riesgos ()
 Utilizando el modelo especializado `claude-sonnet-4-20250514` de Anthropic, este módulo transforma el DataFrame consolidado a formato JSON y procesa un diagnóstico automatizado bajo un rol de Analista de Operaciones Logísticas. El output genera:
 * Un **resumen ejecutivo** de alta densidad informativa (máximo 80 palabras).
 * Identificación de los **3 principales riesgos operativos** de la semana.
