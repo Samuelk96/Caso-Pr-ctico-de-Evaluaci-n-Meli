@@ -8,10 +8,10 @@ La solución elimina una carga operativa de más de 2 horas semanales de prepara
 ---
 
 ## 🛠️ Stack Tecnológico
-* **Core Data Pipeline:** Python 3.10+ (Pandas, NumPy) [cite: 3, 14]
-* **Integración/Conectividad:** API de Google Sheets (`gspread` / `oauth2client`) [cite: 16, 19, 20]
-* **AI Risk Management:** Anthropic API (`claude-sonnet-4-20250514`) [cite: 38, 43, 57]
-* **Capa de BI & Visualización:** Looker Studio / Tableau [cite: 3, 31]
+* **Core Data Pipeline:** Python 3.10+ (Pandas, NumPy)
+* **Integración/Conectividad:** API de Google Sheets (`gspread` / `oauth2client`)
+* **AI Risk Management:** Anthropic API (`claude-sonnet-4-20250514`)
+* **Capa de BI & Visualización:** Looker Studio / Tableau
 
 ---
 
