@@ -39,3 +39,4 @@ Diseño de tablero interactivo enfocado en ser **autosuficiente para el negocio*
   * 🟡 **Amarillo:** Retraso entre 7 y 14 días.
   * 🔴 **Rojo:** Retraso > 14 días.
 * **Filtros Dinámicos:** Segmentación avanzada por Estado, Tipo de SC (Estatus Gantt) y rango de fechas estimadas de apertura.
+* Link al dashboard **https://datastudio.google.com/s/hqg9UXobkPc**
